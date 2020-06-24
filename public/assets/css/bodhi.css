@@ -1,0 +1,360 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*background: url('../images/greens.jpg') no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* text-transform: uppercase; */
+    /* font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #4d7a4a;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.beverages h4 {
+    font-weight: 700;
+}
+
+.desserts h4 {
+    font-weight: 700;
+}
+
+.desserts i {
+    font-style: none;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+.menu section {
+    /*background-color: red; for testing...*/
+    margin-bottom: 35px;
+}
+
+.menu h2{
+    font-size: 1.8em;
+    font-family: Trebuchet MS;
+    text-transform: capitalize;
+}
+
+.desserts section {
+    /*background-color: red; for testing...*/
+    margin-bottom: 35px;
+}
+
+.beverages section {
+    /*background-color: red; for testing...*/
+    margin-bottom: 35px;
+}
+
+.menu h4 {
+    font-weight: bold;
+}
+
+.menu i {
+    /*background-color:olive; for testing...*/
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+}
+
+.menu p {
+    text-align: justify;
+    font-size: 1em;
+}
+
+.nav .nav-link {
+    padding: 10px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: #4d7a4a;
+}
+
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: #4d7a4a;
+}
+
+.other-week {
+    color: #6BC665;
+}
+
+.food-truck-img {
+    padding: 10px;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+        font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: white;
+        background-color: #4d7a4a;
+    }
+    .top-divider {
+        margin-top: 0;
+    }
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: white;
+        background-color: #4d7a4a;
+    }
+    .navbar {
+        border-radius: 0;
+    }
+    .navbar-header {
+        display: none;
+    }
+    .navbar {
+        min-height: 0;
+    }
+    .navbar-default {
+        background: #fff;
+        background: rgba(255, 255, 255, 0.9);
+        /*background: #a8d1a5;*/
+    }
+    .nav>li>a {
+        padding: 35px;
+    }
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.newsAlert .timestamp {
+    font-size: 1rem;
+    text-align: left;
+}
+
+#menu .menu-type .row {
+    padding-bottom: 3rem;
+}
+
+#menu {
+    background: #D7EFE4;
+}
+
+#menu .card.menu-type {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#menu .card.menu-type .card-header h2 {
+    padding: 0.5rem;
+    margin: 0;
+    line-height: 1rem;
+}
+
+#menu .card.menu-type button.btn {
+    padding: 0;
+    margin: 0;
+}
+
+[data-toggle="collapse"] i:before {
+    content: "\f068";
+  }
+  
+  [data-toggle="collapse"].collapsed i:before {
+    content: "\f067";
+  }
+  
+  #accordion .card-header {
+    margin-bottom: 8px;
+  }
+  #accordion .accordion-title {
+    position: relative;
+    display: block;
+    padding: 8px 0 8px 50px;
+    background: #344E41;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    transition: all 0.4s ease-in-out;
+  }
+  #accordion .accordion-title i {
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    left: 0;
+    color: #fff;
+    background: radial-gradient(rgba(58, 90, 64, 0.8), #344E41);
+    text-align: center;
+    border-right: 1px solid transparent;
+  }
+
+  #accordion .accordion-title:hover {
+    padding-left: 60px;
+    background: #344E41;
+    color: #fff;
+  }
+  #accordion .accordion-title:hover i {
+    border-right: 1px solid #fff;
+  }
+  #accordion .accordion-body {
+    padding: 40px 55px;
+  }
+  #accordion .accordion-body ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #accordion .accordion-body li {
+    padding-left: 1.2rem;
+    text-indent: -1.2rem;
+  }
+  #accordion .accordion-body li:before {
+    content: "\f10a";
+    padding-right: 5px;
+    font-family: "Flaticon";
+    font-size: 16px;
+    font-style: normal;
+    color: #213744;
+  }
+  

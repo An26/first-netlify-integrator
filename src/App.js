@@ -1,24 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import IntroMessage from './components/introMessage.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          This is a change. How can I see this change?
-        </a>
-      </header>
+      <IntroMessage />
     </div>
   );
 }
